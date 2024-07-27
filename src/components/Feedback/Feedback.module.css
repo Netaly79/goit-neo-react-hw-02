@@ -1,0 +1,5 @@
+.feedbackBlock > p {
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 500;
+}

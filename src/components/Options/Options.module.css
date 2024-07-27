@@ -1,0 +1,32 @@
+.buttonsBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 20px;
+  margin-right: 20px;
+  min-width: 84px;
+  border-radius: 5px;
+}
+.voteButton {
+  border: 2px solid rgb(136, 240, 162);
+  background-color: rgb(88, 189, 113);
+}
+
+.voteButton:hover {
+  background-color: rgb(136, 240, 162);
+  border-color: rgb(88, 189, 113);
+}
+
+.resetButton {
+  border: 2px solid rgb(240, 136, 136);
+  background-color: rgb(191, 24, 24);
+}
+
+.resetButton:hover {
+  background-color: rgb(240, 136, 136);
+  border-color: rgb(191, 24, 24);
+}
