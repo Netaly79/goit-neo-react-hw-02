@@ -1,7 +1,6 @@
 import css from "./Feedback.module.css";
 
-export const Feedback = ({ feedback, total }) => {
-  const positive = Math.round((feedback.good / total) * 100);
+export const Feedback = ({ feedback, total, positive }) => {
   return (
     <div className={css.feedbackBlock}>
       <p>Good: {feedback.good}</p>
